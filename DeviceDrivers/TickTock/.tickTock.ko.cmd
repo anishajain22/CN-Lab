@@ -1,0 +1,1 @@
+cmd_/home/anisha/Desktop/CN/DeviceDrivers/TickTock/tickTock.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/anisha/Desktop/CN/DeviceDrivers/TickTock/tickTock.ko /home/anisha/Desktop/CN/DeviceDrivers/TickTock/tickTock.o /home/anisha/Desktop/CN/DeviceDrivers/TickTock/tickTock.mod.o ;  true
